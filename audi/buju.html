@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片介绍页面</title>
+    <style>
+        body {
+            font-family: "PingFang SC", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 1em;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 18px;
+            font-family: "PingFang SC", Arial, sans-serif;
+        }
+
+        nav a:link {
+            color: #fff;
+            background-color: #333;
+        }
+
+        nav a:visited {
+            color: #ccc;
+            background-color: #555;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffcc00;
+            background-color: #444;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: "PingFang SC", Arial, sans-serif;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .image-container div {
+            width: 30%;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 100%;
+        }
+
+        .image-description {
+            width: 100%;
+            font-size: 14px;
+            margin-top: 1em;
+            font-family: "PingFang SC", Arial, sans-serif;
+        }
+
+        .main-item {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1em;
+        }
+
+        .main-item img,
+        .main-item iframe {
+            width: 48%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 2em;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-links {
+            flex: 1;
+            margin-right: 2em;
+            font-family: "PingFang SC", Arial, sans-serif;
+        }
+
+        .footer-links h3 {
+            font-size: 20px;
+            margin-bottom: 1em;
+            font-family: "PingFang SC", Arial, sans-serif;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5em;
+            font-family: "PingFang SC", Arial, sans-serif;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2em;
+        }
+
+        .language-selector select {
+            font-size: 16px;
+            padding: 0.5em;
+            font-family: "PingFang SC", Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- Placeholder for deleted image -->
+            <!-- <img src="images/logo.jpg" alt="Logo"> -->
+            <a href="#home">首页</a>
+            <a href="#car-display">汽车展示</a>
+            <a href="#brand-introduction">品牌介绍</a>
+            <a href="#contact-us">联系我们</a>
+        </nav>
+    </header>
+    <main>
+        <section id="car-display">
+            <div class="main-item">
+                <!-- Placeholder for deleted image -->
+                <!-- <img src="images/audiMain.png" alt="Audi Main"> -->
+                <iframe class="image-description" src="imageDescriptionText/audiMain.txt" frameborder="0"></iframe>
+            </div>
+            <h2>汽车展示</h2>
+            <div class="image-container">
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/audiA4L.png" alt="Audi A4L"> -->
+                </div>
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/audiA6L.png" alt="Audi A6L"> -->
+                </div>
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/audiQ5L.png" alt="Audi Q5L"> -->
+                </div>
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/audiMain.png" alt="Audi Q5L"> -->
+                </div>
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/audiA0.png" alt="Audi A0"> -->
+                </div>
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/aodiS1.png" alt="Audi S1"> -->
+                </div>
+            </div>
+            <h2>奥迪推荐</h2>
+            <div class="main-item">
+                <iframe class="image-description" src="imageDescriptionText/audiMain.txt" frameborder="0"></iframe>
+                <!-- Placeholder for deleted image -->
+                <!-- <img src="images/audiMain.png" alt="Audi Main"> -->
+            </div>
+            <h2>奥迪介绍</h2>
+            <div class="image-container">
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/audiA4L.png" alt="Audi A4L"> -->
+                    <iframe class="image-description" src="imageDescriptionText/audiA4L.txt" frameborder="0"></iframe>
+                </div>
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/aodiS1.png" alt="Audi S1"> -->
+                    <iframe class="image-description" src="imageDescriptionText/audiS1.txt" frameborder="0"></iframe>
+                </div>
+                <div>
+                    <!-- Placeholder for deleted image -->
+                    <!-- <img src="images/audiA6L.png" alt="Audi A6L"> -->
+                    <iframe class="image-description" src="imageDescriptionText/audiA6L.txt" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-links">
+                <h3>导航菜单</h3>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">汽车展示</a></li>
+                    <li><a href="#">品牌介绍</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>联系我们:</h3>
+                <ul>
+                    <li>电话：123456789</li>
+                    <li>邮箱：XXX@YY.COM</li>
+                    <li>传真：123-456789</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
